@@ -56,7 +56,7 @@ SRGI-Event-Portal/
 
 ---
 
-## 🙋‍♀️ Created By
+##  Created By
 
 **Himanshu Dixit**
 
