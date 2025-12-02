@@ -58,7 +58,7 @@ SRGI-Event-Portal/
 
 ## 🙋‍♀️ Created By
 
-**Anshika Raj**
+**Himanshu Dixit**
 
 ---
 
