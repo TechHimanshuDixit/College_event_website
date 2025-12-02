@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SRGI Event Portal Registration Form</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+  <!--css file-->
+    <link rel="stylesheet" href="registration.css" />
+
+  </head>
+<body>
+
+  <!-- Registration Form -->
+  <div class="container">
+    <div class="title">SRGI Event Portal Registration</div>
+    <div class="content">
+      <form action="#" id="registerForm" onsubmit="handleSubmit(event)">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" name="name" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" name="username" placeholder="Enter your username" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="email" name="email" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" name="number" placeholder="Enter your number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Roll Number</span>
+            <input type="text" name="roll" placeholder="Enter your Roll number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Branch</span>
+            <select name="branch" required>
+              <option value="EN">EN</option>
+              <option value="ECE">ECE</option>
+              <option value="CSE">CSE</option>
+              <option value="AI">AI</option>
+              <option value="AIML">AIML</option>
+              <option value="DS">DS</option>
+              <option value="IMBA">IMBA</option>
+              <option value="BVOC">BVOC</option>
+              <option value="MBA">MBA</option>
+              <option value="CE">CE</option>
+              <option value="ME">ME</option>
+              <option value="AG">AG</option>
+              <option value="BIOTECH">BIOTECH</option>
+              <option value="AYUSH">AYUSH</option>
+            </select>
+          </div>
+          <div class="input-box">
+            <span class="details">Year</span>
+            <select name="year" required>
+              <option value="1st">1st Year</option>
+              <option value="2nd">2nd Year</option>
+              <option value="3rd">3rd Year</option>
+              <option value="4th">4th Year</option>
+              <option value="5th">5th Year</option>
+            </select>
+          </div>
+          <div class="input-box">
+            <span class="details">Gender</span>
+            <select name="gender" required>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+            </select>
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="password" name="password" placeholder="Enter your password" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input type="password" name="confirm_password" placeholder="Confirm your password" required>
+          </div>
+        </div>
+
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </div>
+
+      <!--JS file-->
+      <script src="registration.js"></script>
+</body>
+</html>

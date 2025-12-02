@@ -1,0 +1,512 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <!--Created by Anshika Raj-->
+    
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Event Website|Anshika Raj & Himanshu Dixit</title>
+    
+
+      <!--swiper css-->
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+      />
+
+      <!--font awesome-->
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      />
+
+      <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "26f14d8d-0079-43ed-bef3-af9c278d4704", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "09173702-a062-4fdc-879d-02309269e4db", // The ID of your service instance.
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+
+      <!--css file-->
+      <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+      <!-- header section starts  -->
+      <header class="header">
+        <img src="sr_logo.png" alt="logo1" width="100" height="120" class="logo-left">
+        <a href="#service" class="logo">SRGI Event Portal</a>
+        <img src="aktu_logo.png" alt="logo2" width="120" height="120" class="logo-right">
+        
+        <nav class="navbar">
+          <a href="#home">home</a>
+          <a href="registration.html">Registration</a>
+          <a href="login.html">Login</a>
+          <a href="#service">service</a>
+          <a href="#about">about</a>
+          <a href="#gallery">gallery</a>
+          <a href="#price">events</a>
+          <a href="#review">review</a>
+          <a href="#contact">contact</a>
+        </nav>
+      
+        <div id="menu-bars" class="fas fa-bars"></div>
+      </header>
+
+      <!-- home section starts  -->
+      <section class="home" id="home">
+        <div class="content">
+          <h3>Welcome</h3>
+          <h3>where your ideas take off
+            <span> our college events </span>
+          </h3>
+          <a href="#" class="btn">get quote</a>
+        </div>
+
+        <div class="swiper-container home-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="home1.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="home2.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="home3.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="home4.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="home5.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="home6.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- service section starts  -->
+      <section class="service" id="service">
+        <h1 class="heading">our <span>services</span></h1>
+
+        <div class="box-container">
+          <div class="box">
+            <i class="fas fa-user-check"></i>
+            <h3><a href="registration.html"><span style="color:aliceblue"> Registration</span></a></h3>
+            <p>
+              Easy online registration for all events, including <b><span style="color:orange;">SAMANVAYA</span></b> (the nostalgic farewell celebration), <b><span style="color:orange;">Dandiya Nights</span></b> (a burst of traditional dance and joy), and our exhilarating <b><span style="color:orange;">Sports Fest</span></b>.
+            </p>
+          </div>
+
+          <div class="box">
+            <i class="fas fa-calendar-alt"></i>
+            <h3>Event Schedules And Updates</h3>
+            <p>
+              Stay informed with real time updates, detailed schedules, and notifications about upcoming activities.
+            </p>
+          </div>
+
+          <div class="box">
+            <i class="fas fa-headset"></i>
+            <h3>Participant Support</h3>
+            <p>
+              Dedicated helpdesk for queries, guidance, and assistance during event preparations and execution.
+            </p>
+          </div>
+
+          <div class="box">
+            <i class="fas fa-id-badge"></i>
+            <h3>Customizable Passes And Badges</h3>
+            <p>
+              Generate personalized event passes and ID badges for participants and volunteers
+            </p>
+          </div>
+
+          <div class="box">
+            <i class="fas fa-photo-video"></i>
+            <h3>Photo And Video Gallery</h3>
+            <p>
+              Access event highlights, photos and videos to relive the memories.
+            </p>
+          </div>
+
+          <div class="box">
+            <i class="fas fa-poll"></i>
+            <h3>Voting And Feedback System</h3>
+            <p>
+              Engage with polls, voting for contests, and feedback forms to enhance the event experience.
+            </p>
+          </div>
+          
+          <div class="box">
+            <i class="fas fa-users-cog"></i>
+            <h3>Team Management Tools</h3>
+            <p>
+              Volunteers and organisers portals for smooth event coordination and communication.
+            </p>
+          </div>
+          
+          <div class="box">
+            <i class="fas fa-handshake"></i>
+            <h3>Sponsor Collaborations</h3>
+            <p>
+              Showcase and promote sponsor supporting the events.
+            </p>
+          </div>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- about section starts  -->
+      <section class="about" id="about">
+        <h1 class="heading"><span>about</span> us</h1>
+
+        <div class="row">
+          <div class="image">
+            <img src="about.jpg" alt="" />
+          </div>
+
+          <div class="content">
+            <h3>your occasion deserves our careful planning</h3>
+            <p>
+              Welcome to the vibrant world of <b><span style="color:orange;">SR Institute of Management and Technology</span></b>, where every moment is a celebration of creativity, energy, and togetherness! This website serves as your gateway to some of our most exciting events, including <b><span style="color:orange;">SRIJAN</span></b>(the grand fresher’s party), <b><span style="color:orange;">SAMANVAYA</span></b> (the nostalgic farewell celebration), <b><span style="color:orange;">Dandiya Nights</span></b> (a burst of traditional dance and joy), and our exhilarating <b><span style="color:orange;">Sports Fest</span></b>. Designed with passion and innovation by Anshika Raj and Himanshu Dixit, this platform reflects the spirit of SRIMT—where technology meets tradition, and every event becomes a cherished memory.
+
+              
+            </p>
+            <p>
+              Be a part of our journey and make these moments truly unforgettable!
+            </p>
+            <a href="#contact" class="btn">reach us</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- gallery section starts  -->
+      <section class="gallery" id="gallery">
+        <h1 class="heading">our <span>gallery</span></h1>
+
+        <div class="box-container">
+          <div class="box">
+            <img src="gallery1.jpg" alt="" />
+            <h3 class="title">best events</h3>
+          <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-share"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="gallery2.jpg" alt="" />
+            <h3 class="title">best events</h3>
+            <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-share"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="gallery3.jpg" alt="" />
+            <h3 class="title">best events</h3>
+            <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-share"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="gallery4.jpg" alt="" />
+            <h3 class="title">best events</h3>
+            <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-share"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="gallery5.jpg" alt="" />
+            <h3 class="title">best events</h3>
+            <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-share"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="gallery6.jpg" alt="" />
+            <h3 class="title">best events</h3>
+            <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-share"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="gallery7.jpg" alt="" />
+            <h3 class="title">best events</h3>
+            <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-share"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="gallery8.jpg" alt="" />
+            <h3 class="title">best events</h3>
+            <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-share"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="gallery9.jpg" alt="" />
+            <h3 class="title">best events</h3>
+            <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-share"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- price section starts  -->
+      <section class="price" id="price">
+    <h1 class="heading">Join <span>Events</span></h1>
+
+    <div class="box-container">
+      <!-- Srijan 2025 - Fresher's Party -->
+      <div class="box">
+        <h3 class="title">Srijan 2025</h3>
+        <h3 class="amount">₹500.00</h3>
+        <ul>
+          <li><i class="fas fa-check"></i> Welcome Kit</li>
+          <li><i class="fas fa-check"></i> Snacks & Dinner</li>
+          <li><i class="fas fa-check"></i> Dance & Music</li>
+          <li><i class="fas fa-check"></i> Fun Games</li>
+        </ul>
+        <a href="registration.html" class="btn">Join Now!</a>
+      </div>
+
+      <!-- Samanvaya 2025 - Farewell Party -->
+      <div class="box">
+        <h3 class="title">Samanvaya 2025</h3>
+        <h3 class="amount">₹500.00</h3>
+        <ul>
+          <li><i class="fas fa-check"></i> Mementos</li>
+          <li><i class="fas fa-check"></i> Dance Performances</li>
+          <li><i class="fas fa-check"></i> Fashion Show</li>
+          <li><i class="fas fa-check"></i> Snacks & Dinner</li>
+        </ul>
+        <a href="registration.html" class="btn">Join Now!</a>
+      </div>
+
+      <!-- Sports Fest -->
+      <div class="box">
+        <h3 class="title">Sports Fest</h3>
+        <h3 class="amount">Free Registration</h3>
+        <ul>
+          <li><i class="fas fa-check"></i> Participation in Multiple Sports</li>
+          <li><i class="fas fa-check"></i> Prize Distribution</li>
+          <li><i class="fas fa-check"></i> Refreshments</li>
+          <li><i class="fas fa-check"></i> Team and Solo Matches</li>
+        </ul>
+        <a href="registration.html" class="btn">Join Now!</a>
+      </div>
+
+      <!-- Dandiya Nights -->
+      <div class="box">
+        <h3 class="title">Dandiya Nights</h3>
+        <h3 class="amount">₹100.00</h3>
+        <ul>
+          <li><i class="fas fa-check"></i> Traditional Dress Code</li>
+          <li><i class="fas fa-check"></i> Live Music and Dance</li>
+          <li><i class="fas fa-check"></i> Snacks and Drinks</li>
+          <li><i class="fas fa-check"></i> Photo Booth</li>
+          <li><i class="fas fa-check"></i> Exciting Prizes for Best Dancers</li>
+        </ul>
+        <a href="registration.html" class="btn">Join Now!</a>
+      </div>
+    </div>
+  </section>
+
+      <!-- review section starts  -->
+      <section class="reivew" id="review">
+        <h1 class="heading">Student's <span>review</span></h1>
+
+        <div class="review-slider swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+              <i class="fas fa-quote-right"></i>
+              <div class="user">
+                <img src="img1.jpg" alt="" />
+                <div class="user-info">
+                  <h3>Himanshu Dixit</h3>
+                  <span>"Fantastic Event Experience!</span>
+                </div>
+              </div>
+              <p>
+                "Attending the events at SR Institute was an absolute delight. The organization was top-notch, and the speakers were engaging and insightful. Can't wait for the next event. Highly recommend to everyone!"
+              </p>
+            </div>
+
+            <div class="swiper-slide box">
+              <i class="fas fa-quote-right"></i>
+              <div class="user">
+                <img src="img2.jpg" alt="" />
+                <div class="user-info">
+                  <h3>Anshika Raj</h3>
+                  <span>Truly Memorable!</span>
+                </div>
+              </div>
+              <p>
+                "The events at SR Institute were well-planned and executed. The entire team put in a lot of effort, making it a memorable experience. From registration to event execution, everything was smooth and enjoyable. Looking forward to more!"
+              </p>
+            </div>
+
+            <div class="swiper-slide box">
+              <i class="fas fa-quote-right"></i>
+              <div class="user">
+                <img src="img3.jpg" alt="" />
+                <div class="user-info">
+                  <h3>Bhoomika Saxena</h3>
+                  <span>A Must-Participate Event!</span>
+                </div>
+              </div>
+              <p>
+                "I had the pleasure of participating in SR Institute's event, and it exceeded all expectations. The team was professional and welcoming, creating an environment conducive to learning and fun. Definitely will participate again!
+              </p>
+            </div>
+
+            <div class="swiper-slide box">
+              <i class="fas fa-quote-right"></i>
+              <div class="user">
+                <img src="img4.jpg" alt="" />
+                <div class="user-info">
+                  <h3>Ayush Singh</h3>
+                  <span>Inspiring and Well-Organized!</span>
+                </div>
+              </div>
+              <p>
+                "The events at SR Institute not only provided valuable insights but were also full of energy and inspiration. The whole team made sure every detail was taken care of, making it a seamless experience. Highly recommend to everyone!"
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact section starts  -->
+      <section class="contact" id="contact">
+        <h1 class="heading"><span>contact</span> us</h1>
+
+        <form action="">
+          <div class="inputBox">
+            <input type="text" placeholder="name" />
+            <input type="email" placeholder="email" />
+          </div>
+          <div class="inputBox">
+            <input type="tel" placeholder="number" />
+            <input type="text" placeholder="subject" />
+          </div>
+          <textarea
+            name=""
+            placeholder="message"
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" value="send message" class="btn" />
+        </form>
+      </section>
+
+      <!-- footer section starts  -->
+      <section class="footer">
+        <div class="box-container">
+          <div class="box">
+            <h3>branches opening soon </h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> bangalore </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> hyderabad </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> delhi </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> kolkata </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> chennai </a>
+          </div>
+
+          <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> service </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> about </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> gallery </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> events </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> reivew </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
+          </div>
+
+          <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +91 9999999999 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +91 9999999999 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> abc@gmail.com </a>
+            <a href="#"> <i class="fas fa-envelope"></i> abc2@gmail.com </a>
+            <a href="#">
+              <i class="fas fa-map-marker-alt"></i> Lucknow, india - 226201
+            </a>
+          </div>
+
+          <div class="box">
+            <h3>follow us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-linkedin-in"></i> linkedin </a>
+          </div>
+        </div>
+
+        <div class="credit">
+          created by <span><a href="#">Anshika Raj & Himanshu Dixit</a>| Copyrights &copy 2025 | all rights reserved
+        </div>
+      </section>
+
+      <!-- theme toggler  -->
+      <div class="theme-toggler">
+        <div class="toggle-btn">
+          <i class="fas fa-cog"></i>
+        </div>
+
+        <h3>choose color</h3>
+
+        <div class="buttons">
+          <div class="theme-btn" style="background: #ccff33"></div>
+          <div class="theme-btn" style="background: #d35400"></div>
+          <div class="theme-btn" style="background: #f39c12"></div>
+          <div class="theme-btn" style="background: #1abc9c"></div>
+          <div class="theme-btn" style="background: #3498db"></div>
+          <div class="theme-btn" style="background: #9b59b6"></div>
+        </div>
+      </div>
+
+      <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+      <!--JS file-->
+      <script src="home.js"></script>
+    </body>
+  </html>

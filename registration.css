@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      margin: 0;
+      background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    }
+
+    .container {
+      max-width: 700px;
+      width: 100%;
+      background-color: #fff;
+      padding: 25px 30px;
+      border-radius: 5px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .title {
+      font-size: 25px;
+      font-weight: 500;
+      position: relative;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .title::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 3px;
+      width: 30px;
+      border-radius: 5px;
+      background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    }
+
+    .user-details .input-box {
+      margin-bottom: 15px;
+      width: 100%;
+    }
+
+    .user-details .input-box input,
+    .user-details .input-box select {
+      height: 45px;
+      width: 100%;
+      outline: none;
+      font-size: 16px;
+      border-radius: 5px;
+      padding-left: 15px;
+      border: 1px solid #ccc;
+      border-bottom-width: 2px;
+      transition: all 0.3s ease;
+      color: black;
+    }
+
+    .user-details .input-box input:focus,
+    .user-details .input-box input:valid,
+    .user-details .input-box select:focus {
+      border-color: #9b59b6;
+    }
+
+    .button input {
+      height: 100%;
+      width: 100%;
+      border-radius: 5px;
+      border: none;
+      color: #fff;
+      font-size: 18px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    }
+
+    /* Media Queries */
+    @media (max-width: 768px) {
+      .container {
+        padding: 20px;
+      }
+
+      .user-details .input-box {
+        width: 100%;
+      }
+
+      .button input {
+        font-size: 16px;
+      }
+
+      .title {
+        font-size: 22px;
+      }
+    }
+
+    @media (max-width: 459px) {
+      .container .content .category {
+        flex-direction: column;
+      }
+
+      .user-details .input-box {
+        width: 100%;
+      }
+
+      .button input {
+        font-size: 16px;
+      }
+    }
